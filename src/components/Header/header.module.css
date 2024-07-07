@@ -1,0 +1,14 @@
+
+
+.header_section{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px var(--border-dark-color);
+    margin-bottom: 30px;
+}
+
+.header_section .site_header{
+    font-size: 40px;
+    height: 100px;
+    line-height: 100px;
+}
