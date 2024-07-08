@@ -8,12 +8,10 @@ Install the project dependencies.
 ```bash
 yarn install
 ```
-## or
+### or
 ```bash
 npm install
 ```
-#
-#
 #
 
 First, run the development server:
@@ -21,12 +19,10 @@ First, run the development server:
 ```bash
 yarn dev
 ```
-## or
+### or
 ```bash
 npm run dev
 ```
-#
-#
 #
 
 Run the React Testing:
@@ -34,12 +30,10 @@ Run the React Testing:
 ```bash
 yarn test
 ```
-## or
+### or
 ```bash
 npm run test
 ```
-#
-#
 #
 
 Run the Cypress Testing
@@ -47,7 +41,7 @@ Run the Cypress Testing
 ```bash
 yarn cypress
 ```
-## or
+### or
 ```bash
 npm run cypress
 
