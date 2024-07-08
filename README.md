@@ -3,6 +3,14 @@
 
 ## Getting Started
 
+Install the project dependencies.
+
+```bash
+yarn install
+# or
+npm install
+```
+
 First, run the development server:
 
 ```bash
