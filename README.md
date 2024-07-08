@@ -12,16 +12,22 @@ yarn install
 ```bash
 npm install
 ```
+#
+#
+#
 
 First, run the development server:
 
 ```bash
 yarn dev
 ```
-```bash
 ## or
+```bash
 npm run dev
 ```
+#
+#
+#
 
 Run the React Testing:
 
@@ -32,6 +38,9 @@ yarn test
 ```bash
 npm run test
 ```
+#
+#
+#
 
 Run the Cypress Testing
 
