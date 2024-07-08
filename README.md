@@ -7,9 +7,7 @@ Install the project dependencies.
 
 ```bash
 yarn install
-```
-### or
-```bash
+# or
 npm install
 ```
 #
@@ -18,9 +16,7 @@ First, run the development server:
 
 ```bash
 yarn dev
-```
-### or
-```bash
+# or
 npm run dev
 ```
 #
@@ -29,9 +25,7 @@ Run the React Testing:
 
 ```bash
 yarn test
-```
-### or
-```bash
+# or
 npm run test
 ```
 #
@@ -40,9 +34,7 @@ Run the Cypress Testing
 
 ```bash
 yarn cypress
-```
-### or
-```bash
+# or
 npm run cypress
 
 # then use the article.cy.js
