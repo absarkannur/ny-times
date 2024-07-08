@@ -60,7 +60,7 @@ class ArticleDetails extends Component {
 
                 <div className={Styles.breadcrumbs}>
                     <ul className={ Styles.breadcrumbs_list }>
-                        <li className={ Styles.item }><Link to={'/'}>Home &gt;</Link></li>
+                        <li className={ Styles.item }><Link to={'/'} data-cy="back-to-home">Home &gt;</Link></li>
                         <li className={ Styles.item }>{ data.title }</li>
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-import React, { Component, Suspense } from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import {withRouter} from './../functions/route-wrap';
 
@@ -27,6 +27,9 @@ class ArticlesPage extends Component {
     componentDidMount() {
         // Initial Load
         this.props.fn_getArticles();
+
+        console.log( this.props )
+
     }
 
     componentDidUpdate( prevProps ) {
@@ -59,21 +62,18 @@ class ArticlesPage extends Component {
         return (
             <Wrapper>
                 
-                <Header />
-                
-                <Suspense fallback={<div>Loading...</div>}>
-                    <div className={ Styles.articles }>
-                        {
-                            ( this.state.articles_data.length !== 0 ) ? <News onData={ this.state.articles_data } /> : ''
-                        }
-                    </div>
-                </Suspense>
-
+                <Header /> 
+               
+                <div className={ Styles.articles } data-test-id={'article-list'}>
+                    {
+                        ( this.state.articles_data.length !== 0 ) ? <News onData={ this.state.articles_data } /> : ''
+                    }
+                </div>
+            
             </Wrapper>
         )
     }
 }
-
 
 function mapStatetoProps( state ){
     return {

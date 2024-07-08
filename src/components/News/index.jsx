@@ -10,7 +10,7 @@ export default function News( props ) {
         <div className={ Styles.article_list }>
             
             {
-                tempData.map(( news, key ) => <div key={ key } className={ Styles.list_item } >
+                tempData?.map(( news, key ) => <div data-cy={'article-list-item-' + key} key={ key } className={ Styles.list_item } >
                     <Link to={'/' + news.id }  >
                     {
                         ( news.media.length !== 0 ) ? <img src={ news.media[0]["media-metadata"][2].url } /> : []
